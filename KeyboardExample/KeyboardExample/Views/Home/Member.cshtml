@@ -1,0 +1,10 @@
+﻿@Styles.Render("~/Content/keyboard.css")
+@Scripts.Render("~/Scripts/keyboard.js")
+@Scripts.Render("~/Scripts/keyboardHelper.js")
+
+<input id="card-num" class="keyboard-only-nums" placeholder="卡號" />
+<div class="simple-keyboard"></div>
+
+<script>
+    createKeyboard('#card-num')
+</script>

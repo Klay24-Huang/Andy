@@ -1,0 +1,12 @@
+﻿@Styles.Render("~/Content/keyboard.css")
+@Scripts.Render("~/Scripts/keyboard.js")
+@Scripts.Render("~/Scripts/keyboardHelper.js")
+
+<input id="account" placeholder="帳號" />
+<input id="password" placeholder="密碼" />
+<input id="phone" class="keyboard-only-nums" placeholder="手機" />
+<div class="simple-keyboard"></div>
+
+<script>
+    createKeyboard('#account')
+</script>
