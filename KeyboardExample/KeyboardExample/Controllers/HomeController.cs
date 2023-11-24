@@ -19,5 +19,10 @@ namespace KeyboardExample.Controllers
 
             return View();
         }
+
+        public ActionResult Keyboard()
+        {
+            return PartialView();
+        }
     }
 }
